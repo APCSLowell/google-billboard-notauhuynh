@@ -5,11 +5,40 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		System.out.println("Not the right string, tests will fail!");
 	}
-	
 
-	//Finish this function
-	public boolean isPrime(){
-	}
+	public int firstPos = 2;
+	public int secondPos = 12;
+	public int count = 0;
+	public void setup()
+	{
+  while (count < 1) {
+    String digits = e.substring(firstPos, secondPos);
+    double dNum = Double.parseDouble(digits);
+    if (isPrime(dNum)) {
+      System.out.println("Prime: " + dNum);
+      count++;
+    }
+    firstPos++;
+    secondPos++;
+  }
+}
+public void draw()
+{
+  //not needed for this assignment
+}
+public boolean isPrime(double num)
+{
+  if (num < 2) {
+    return false;
+  }
+  for (int i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i == 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
 
 }
 
