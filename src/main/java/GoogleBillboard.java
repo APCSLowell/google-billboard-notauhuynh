@@ -10,7 +10,7 @@
       while (count < 1) {
         String digits = e.substring(firstPos, secondPos);
         double dNum = Double.parseDouble(digits);
-        if(isPrime(dNum)) {
+       if(isPrime(dNum)) {
           System.out.println(dNum);
           count++;
         }
