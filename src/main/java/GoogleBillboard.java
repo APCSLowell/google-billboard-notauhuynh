@@ -16,8 +16,6 @@ public class GoogleBillboard {
    	 firstPos++;
    	 secondPos++;
 	}
-       }
-
 	//Finish this function
 public static boolean isPrime(double num){
   if (num < 2) {
@@ -30,4 +28,5 @@ public static boolean isPrime(double num){
   }
  return true;
  }
+}
 }
