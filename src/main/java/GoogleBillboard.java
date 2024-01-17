@@ -7,12 +7,12 @@ public class GoogleBillboard {
         public int count = 0;
 	public static void main(final String[] args) {
 		 while (count < 1) {
-    String digits = e.substring(firstPos, secondPos);
-    double dNum = Double.parseDouble(digits);
-    if (isPrime(dNum)) {
-      System.out.println(dNum);
-      count++;
-    }
+  	  String digits = e.substring(firstPos, secondPos);
+   	  double dNum = Double.parseDouble(digits);
+ 	   if (isPrime(dNum)) {
+    	  System.out.println(dNum);
+     	  count++;
+    		}
     firstPos++;
     secondPos++;
 	}
@@ -28,5 +28,6 @@ public static boolean isPrime(double num){
       return false;
     }
   }
+ return true;
  }
 }
