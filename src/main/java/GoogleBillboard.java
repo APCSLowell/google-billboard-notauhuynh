@@ -14,7 +14,7 @@
         String digits = e.substring(firstPos, secondPos);
         double dNum = Double.parseDouble(digits);
        if(isPrime(dNum)) {
-          System.out.println(dNum);
+          System.out.println(e.substring(firstPos, secondPos));
           count++;
         }
         firstPos++;
