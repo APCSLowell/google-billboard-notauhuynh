@@ -3,9 +3,9 @@
 public class GoogleBillboard {
 	public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
 	public static void main(final String[] args) {
-		public int firstPos = 2;
-		public int secondPos = 12;
-		public int count = 0;
+		int firstPos = 2;
+		int secondPos = 12;
+		int count = 0;
 		 while (count < 1) {
     			String digits = e.substring(firstPos, secondPos);
    			 double dNum = Double.parseDouble(digits);
