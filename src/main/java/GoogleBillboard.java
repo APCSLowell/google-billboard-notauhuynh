@@ -6,6 +6,9 @@
     public int secondPos = 12;
     public int count = 0;
 
+   //main methods are static in java ex. public static void main(String[] args)
+   //This also means that all variables & functions referenced within the main method must be static as well.
+   //ex public static int count = 0;
     public void main(final String[] args) {
       while (count < 1) {
         String digits = e.substring(firstPos, secondPos);
