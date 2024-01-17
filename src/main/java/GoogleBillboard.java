@@ -13,10 +13,10 @@ public class GoogleBillboard {
     	  System.out.println(dNum);
      	  count++;
     		}
-    firstPos++;
-    secondPos++;
+   	 firstPos++;
+   	 secondPos++;
 	}
-	
+       }
 
 	//Finish this function
 public static boolean isPrime(double num){
